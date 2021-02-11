@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    tools:context=".AcercaDeMainActivity">
+
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/et_login_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="Me llamo Guillermo Vazquez soy estudiante de la
+carrera de informatica!! Tengo 25 años y soy de Paraguay, soltero, espero aprovchar
+el curso al maximo!!" />
+
+</LinearLayout>
